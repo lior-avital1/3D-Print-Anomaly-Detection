@@ -8,7 +8,7 @@ and `classification/manifest.csv` maps every file back to its original path.
 
 | Source name (prefix) | Dataset | Version | Original format | License | Classes we took (original → ours) |
 |---|---|---|---|---|---|
-| `roboflow_spaghetti_v3`* | [Spaghetti – aiot-innowork](https://universe.roboflow.com/aiot-innowork/spaghetti-mckhg) (Roboflow) | v3 | YOLOv8 detection | _TODO: check data.yaml_ | spaghetti, stringing, zits |
+| `roboflow_spaghetti_v3`* | [Spaghetti – aiot-innowork](https://universe.roboflow.com/aiot-innowork/spaghetti-mckhg) (Roboflow) | v3 | YOLOv8 detection | _CC BY 4.0_ | spaghetti, stringing, zits |
 | `kaggle_defects` | _TODO: Kaggle link_ ("3d printing defects") | – | one folder per class | _TODO_ | ok → normal, spaghetti, bed_not_stick → detachment |
 | `purvi_failure_v4` | [3d print failure detection – Purvi Rathore](https://universe.roboflow.com/purvi-rathore-5amqh/3d-print-failure-detection-efvsh/dataset/4) (Roboflow) | v4 (no augmentation) | YOLOv8 detection | CC BY 4.0 | spaghetti, stringing, warping |
 | `fyp_defects_noaug` | [3D printing defects – fyp](https://universe.roboflow.com/fyp-ul2aa/3d-printing-defects-wptsr) (Roboflow), forked and regenerated without augmentation | fork v1 | YOLOv8 detection | CC BY 4.0 | stinging → stringing, poor first layer → poor_first_layer, over extrusion → over_extrusion, under extrusion → under_extrusion, spaghetti |
