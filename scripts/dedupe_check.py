@@ -2,7 +2,6 @@
 Find duplicate / near-duplicate images with a perceptual hash (dHash).
 Robust to resizing, re-compression and small brightness changes, so it also
 catches the same photo re-exported by a different Roboflow/Kaggle user.
-
 Two modes:
 
 1) New source vs. what we already have  (run BEFORE every import)
